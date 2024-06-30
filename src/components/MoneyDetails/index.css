@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.ammounts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.your-blc-container {
+  background-color: #ecfccb;
+  height: 130px;
+  width: 270px;
+  border: 1px solid #84cc16;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-right: 30px;
+}
+.balance-img {
+  height: 70px;
+  width: 70px;
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+.ammount-type-text {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 16px;
+}
+.ammount {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 20px;
+  margin: 0;
+}
+.your-income-container {
+  background-color: #cffafe;
+  height: 130px;
+  width: 270px;
+  border: 1px solid #06b6d4;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.your-expenses-container {
+  background-color: #ede9fe;
+  height: 130px;
+  width: 270px;
+  border: 1px solid #7c3aed;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 30px;
+}

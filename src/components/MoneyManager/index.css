@@ -1,0 +1,241 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.app-bg-container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 80%;
+}
+
+.user-container {
+  height: 200px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border: 0px solid;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 20px;
+  padding-left: 50px;
+}
+.user-name {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+.description {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 20px;
+  margin: 0;
+}
+.span-text {
+  color: #0b69ff;
+}
+
+/*>>>>>>>>>> Add Trans>>>>>>>>>>>>>>>*/
+.tables-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-transaction-container {
+  background-color: #ffffff;
+  height: 500px;
+  width: 40%;
+  border: 1px solid #334155;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.form-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+.add-text {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.label {
+  color: #7e858e;
+  font-family: 'roboto';
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.title-input {
+  height: 50px;
+  width: 100%;
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 18px;
+  border: 1px solid #7e858e;
+  border-radius: 6px;
+  outline: none;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.select-input {
+  height: 50px;
+  width: 100%;
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 18px;
+  border: 1px solid #7e858e;
+  border-radius: 6px;
+  outline: none;
+  padding: 15px;
+  padding-right: 20px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.options {
+  padding: 20px;
+}
+.add-btn {
+  background-color: #0b69ff;
+  height: 45px;
+  width: 80px;
+  color: #ffffff;
+  padding: 10px;
+  font-family: 'roboto';
+  font-size: 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*transaction-history-container>>>>>>>>>>>>*/
+.transaction-history-container {
+  background-color: #ffffff;
+  min-height: 425px;
+  width: 55%;
+  border: 1px solid #334155;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.title-ammount-type-container {
+  height: 100%;
+  border: 1px solid #334155;
+  border-radius: 6px;
+}
+
+.column1 {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 25px;
+  border-right: none;
+}
+.column2 {
+  margin-left: 0;
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  border-right: none;
+}
+
+.column3 {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  border-right: none;
+}
+.ul-list-container {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.li-list-container {
+  list-style-type: none;
+  width: 66%;
+  border: 0px solid #cbd5e1;
+  padding-left: 24px;
+  padding-right: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media ((min-width: 768px) and (max-width:991px)) {
+  .column1 {
+    color: #1e293b;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-right: none;
+  }
+  .column2 {
+    margin-left: 0;
+    color: #1e293b;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+    border-right: none;
+  }
+
+  .column3 {
+    color: #1e293b;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+    border-right: none;
+  }
+  .ul-list-container {
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  .li-list-container {
+    list-style-type: none;
+    width: 70%;
+    border: 0px solid #cbd5e1;
+    padding-left: 24px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

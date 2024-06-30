@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  border-top: 1px solid #cbd5e1;
+
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.del-btn {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.delete-img {
+  height: 30px;
+  width: 30px;
+}
+.added-trans-text {
+  margin-right: 20px;
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 500;
+  width: 20%;
+}
